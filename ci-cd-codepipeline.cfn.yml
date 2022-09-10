@@ -62,6 +62,10 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter a kubectl IAM role
 
+  env:
+  parameter-store:         
+    JWT_SECRET: JWT_SECRET
+
 
 Metadata:
   AWS::CloudFormation::Interface:
