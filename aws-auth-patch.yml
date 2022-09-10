@@ -9,7 +9,6 @@ data:
     - groups:
       - system:masters
       rolearn: arn:aws:iam::527371517066:role/UdacityFlaskDeployCBKubectlRole
-      rolearn: arn:aws:iam::527371517066:parameter/JWT_SECRET
       username: build
 kind: ConfigMap
 metadata:

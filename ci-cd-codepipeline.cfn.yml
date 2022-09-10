@@ -62,6 +62,9 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter a kubectl IAM role
 
+  parameter-store:         
+    JWT_SECRET: JWT_SECRET
+    
   env:
   parameter-store:         
     JWT_SECRET: JWT_SECRET
