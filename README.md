@@ -86,3 +86,9 @@ Completing the project involves several steps:
 6. Create a CodeBuild stage which will build, test, and deploy your code
 
 For more detail about each of these steps, see the project lesson.
+
+
+## ELB IP
+
+NAME             TYPE           CLUSTER-IP     EXTERNAL-IP                                                               PORT(S)        AGE   SELECTOR
+simple-jwt-api   LoadBalancer   10.100.56.23   a1e193b2d89af4f0b82e98820dd4d0a0-1217461831.us-east-2.elb.amazonaws.com   80:32115/TCP   38m   app=simple-jwt-api
